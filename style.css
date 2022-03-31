@@ -26,7 +26,7 @@ body {
 .contenedor-index{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 35vh    12vh    130vh    15vh;
+    grid-template-rows: 50vh    12vh    130vh    15vh;
     background-color: #db97e2;
     grid-template-areas: 
     "header header"
