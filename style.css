@@ -257,7 +257,7 @@ h1{
     .contenedor-index{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 30vh    10vh    80vh   80vh    15vh;
+        grid-template-rows: 30vh    10vh   60vh   60vh    20vh;
         grid-template-areas: 
         "header"
         "section"
@@ -267,7 +267,8 @@ h1{
     }
     header{
         padding: 0px;
-        background-repeat:repeat-x;
+        background-repeat: repeat-x;
+        background-size:cover;
     }
     header img {
         text-align: center;
