@@ -8,7 +8,6 @@ body {
   font-family: 'Fira Sans', sans-serif;
   color: #a10f8e;
   font-size: 13px;
-  background-color: #d479e9;
   background-image: linear-gradient(58deg, #d479e9 0%, #d4e6e6 46%, #eb7fd2 100%); }
 
 .contenedor-mision {
@@ -34,7 +33,6 @@ header {
     list-style: none;
     font-weight: bold;
     text-decoration: none;
-    color: #370263;
     transition: all 1s; }
   header a:hover {
     color: #2c0936;
@@ -111,10 +109,10 @@ aside {
 
 footer {
   grid-area: footer;
-  background-image: url(images/imagenheader.jpg);
   background-size: contain;
   background-repeat: repeat;
-  padding: 10px; }
+  padding: 10px;
+  background-image: url(images/imagenheader.jpg); }
 
 .contenedor-adoptar {
   display: grid;
@@ -213,6 +211,12 @@ h1 {
 .fotos-caja-chica p {
   padding: 5px;
   text-align: right; }
+
+.fotos-caja-chica header {
+  background-image: url(images/imagenheader.jpg); }
+
+.fotos-caja-chica footer {
+  background-image: url(images/imagenheader.jpg); }
 
 @media screen and (max-width: 500px) {
   body {
@@ -335,7 +339,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 40vh    7vh    55vh    15vh;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer"; }
+    grid-template-areas: "section    section" "main   main" "footer footer"; }
   .contenedor-publicar {
     display: grid;
     grid-template-columns: 1fr  1fr;

@@ -10,7 +10,6 @@ body {
   font-family: 'Fira Sans', sans-serif;
   color: #a10f8e;
   font-size: 13px;
-  background-color: #d479e9;
   background-image: linear-gradient(58deg, #d479e9 0%, #d4e6e6 46%, #eb7fd2 100%);
 }
 
@@ -50,7 +49,6 @@ header a {
   list-style: none;
   font-weight: bold;
   text-decoration: none;
-  color: #370263;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -181,10 +179,10 @@ footer {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: footer;
-  background-image: url(images/imagenheader.jpg);
   background-size: contain;
   background-repeat: repeat;
   padding: 10px;
+  background-image: url(images/imagenheader.jpg);
 }
 
 .contenedor-adoptar {
@@ -352,6 +350,14 @@ h1 {
 .fotos-caja-chica p {
   padding: 5px;
   text-align: right;
+}
+
+.fotos-caja-chica header {
+  background-image: url(images/imagenheader.jpg);
+}
+
+.fotos-caja-chica footer {
+  background-image: url(images/imagenheader.jpg);
 }
 
 @media screen and (max-width: 500px) {
@@ -556,7 +562,7 @@ h1 {
         grid-template-columns: 1fr  1fr;
     -ms-grid-rows: 40vh    7vh    55vh    15vh;
         grid-template-rows: 40vh    7vh    55vh    15vh;
-        grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+        grid-template-areas: "section    section" "main   main" "footer footer";
   }
   .contenedor-publicar {
     display: -ms-grid;
