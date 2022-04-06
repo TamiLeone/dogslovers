@@ -8,8 +8,8 @@
 
 body {
   font-family: 'Fira Sans', sans-serif;
-  color: #a10f8e;
   font-size: 13px;
+  color: #c71f73;
   background-image: linear-gradient(58deg, #d479e9 0%, #d4e6e6 46%, #eb7fd2 100%);
 }
 
@@ -51,6 +51,7 @@ header a {
   text-decoration: none;
   -webkit-transition: all 1s;
   transition: all 1s;
+  color: #370263;
 }
 
 header a:hover {

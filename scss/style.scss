@@ -8,11 +8,11 @@
 $background-color-1:#d479e9;
 $font-color-1:#370263;
 $font-color-2: #2c0936;
-$font-color-3:#a10f8e;
+$font-color-3:#c71f73;
 body {
     font-family: 'Fira Sans', sans-serif;
-    color:$font-color-3;
     font-size: 13px;
+    color: $font-color-3;
     background-image: linear-gradient(58deg, #d479e9 0%, #d4e6e6 46%, #eb7fd2 100%);
 }
 .contenedor-mision{
@@ -46,6 +46,7 @@ header{
     font-weight:bold;
     text-decoration: none;
     transition:all 1s;
+    color:$font-color-1;
     }   
         a:hover {
     color: $font-color-2;
@@ -67,8 +68,7 @@ header  .li-nav {
 }
 header  ul {
     list-style: none;
-    text-align: center;   
-    
+    text-align: center;     
 } 
 .ingresar {
     text-align: right;
