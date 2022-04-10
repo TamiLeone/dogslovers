@@ -233,10 +233,15 @@ h2{
 
 h1{
     text-align: center;
-    font-size: 17px;
+    font-size: 19px;
     padding: 2px;
 }
 
+.h1formularios{
+    h1{
+        font-weight:bolder;
+    }
+}
 .contenedor-transitar{
     display:grid;
     grid-template-columns: 1fr  1fr;
@@ -269,7 +274,7 @@ h1{
     align-content:space-around;
     @extend %alienacion;
     padding: map-get($cont-small, padding);
-    text-align: end;
+    text-align:start;
     font-size: 8px;
 }
 
