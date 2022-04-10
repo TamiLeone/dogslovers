@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+.sec2-caja-grande, .fotos-caja-chica {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -323,18 +334,16 @@ h1 {
 }
 
 .sec2-caja-grande {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 5px;
   text-align: end;
   font-size: 8px;
@@ -344,8 +353,6 @@ h1 {
   height: 180px;
   width: 150px;
   padding: 5px;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
 }
 
 .fotos-caja-chica p {

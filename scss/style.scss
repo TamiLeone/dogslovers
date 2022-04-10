@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
+@mixin tamaños ($alto,$ancho){
+    height: $alto;
+    width: $ancho;
+}
+
+$cont-small:(
+    display: flex,
+    padding: 5px,
+);
+
+%alienacion {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+
 * {
     margin: 0%;
     padding: 0%;
@@ -9,6 +25,7 @@ $background-color-1:#d479e9;
 $font-color-1:#370263;
 $font-color-2: #2c0936;
 $font-color-3:#c71f73;
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 13px;
@@ -226,20 +243,20 @@ h1{
     font-size: 8px;
 }
 .sec2-caja-grande{
-    display: flex;
     flex-direction:row;
+    display: map-get($cont-small, display);
+    padding: map-get($cont-small, padding);
     align-content:space-around;
-    align-items: center;
+    @extend %alienacion;
     padding: 5px;
     text-align: end;
     font-size: 8px;
 }
 .fotos-caja-chica {
+    @extend %alienacion;
     img{
-        height: 180px;
-        width:150px;
+        @include tamaños(180px,150px); 
         padding: 5px;
-        align-content:space-around;
     }
      p{
     padding: 5px;
