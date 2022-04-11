@@ -29,8 +29,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr  1fr;
       grid-template-columns: 1fr  1fr;
-  -ms-grid-rows: 35vh    12vh    130vh    15vh;
-      grid-template-rows: 35vh    12vh    130vh    15vh;
+  -ms-grid-rows: 40vh    12vh    80vh    15vh;
+      grid-template-rows: 40vh    12vh    80vh    15vh;
   background-color: #d479e9;
       grid-template-areas: "header header" "section    section" "main   aside" "footer footer";
 }
@@ -135,7 +135,7 @@ aside {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 40px;
+  padding: 30px;
   font-size: 15px;
   text-align: justify;
 }
@@ -283,10 +283,6 @@ h1 {
   padding: 2px;
 }
 
-.h1formularios h1 {
-  font-weight: bolder;
-}
-
 .contenedor-transitar {
   display: -ms-grid;
   display: grid;
@@ -364,8 +360,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 30vh    10vh   60vh   60vh    20vh;
-        grid-template-rows: 30vh    10vh   60vh   60vh    20vh;
+    -ms-grid-rows: 30vh    10vh   90vh   90vh    20vh;
+        grid-template-rows: 30vh    10vh   90vh   90vh    20vh;
         grid-template-areas: "header" "section" "main" "aside" "footer";
   }
   header {
@@ -398,7 +394,9 @@ h1 {
     padding: 5px;
   }
   .index-caja-chica {
-    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
     font-size: 8px;
   }
   .index-caja-chica img {
@@ -528,8 +526,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 37vh    8vh    32vh   32vh    22vh;
-        grid-template-rows: 37vh    8vh    32vh   32vh    22vh;
+    -ms-grid-rows: 40vh    8vh    32vh   32vh    15vh;
+        grid-template-rows: 40vh    8vh    32vh   32vh    15vh;
         grid-template-areas: "header header" "section section" "main aside" "footer footer";
   }
   .contenedor-adoptar {
@@ -537,8 +535,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr  1fr;
         grid-template-columns: 1fr  1fr;
-    -ms-grid-rows: 38vh    1vh    140vh    15vh;
-        grid-template-rows: 38vh    1vh    140vh    15vh;
+    -ms-grid-rows: 40vh    1vh    140vh    15vh;
+        grid-template-rows: 40vh    1vh    140vh    15vh;
         grid-template-areas: "header header" "section    section" "main   main" "footer footer";
   }
   .contenedor-index {
@@ -564,8 +562,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr  1fr;
         grid-template-columns: 1fr  1fr;
-    -ms-grid-rows: 40vh    5vh    100vh    30vh;
-        grid-template-rows: 40vh    5vh    100vh    30vh;
+    -ms-grid-rows: 40vh    5vh    100vh    15vh;
+        grid-template-rows: 40vh    5vh    100vh    15vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         grid-template-areas: "header header" "section    section" "main   main" "footer footer";
