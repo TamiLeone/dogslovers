@@ -343,11 +343,11 @@ h1 {
   text-align: right;
 }
 
-.fotos-caja-chica header {
+header {
   background-image: url(images/imagenheader.jpg);
 }
 
-.fotos-caja-chica footer {
+footer {
   background-image: url(images/imagenheader.jpg);
 }
 

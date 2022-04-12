@@ -283,12 +283,13 @@ h1{
     padding: map-get($cont-small, padding);
     text-align:right;
     }
-    header{
+}
+
+header{
         background-image: url(images/imagenheader.jpg);
-    }
-    footer{
+}
+footer{
         background-image: url(images/imagenheader.jpg);
-    }
 }
 
 @media screen and (max-width: 500px){
