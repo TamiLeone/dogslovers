@@ -37,7 +37,7 @@ body {
 .contenedor-mision{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 40vh    12vh    80vh    15vh;
+    grid-template-rows: 50vh    12vh    80vh    15vh;
     background-color:$background-color-1;
     grid-template-areas: 
     "header header"
@@ -162,7 +162,7 @@ footer{
 .contenedor-adoptar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 35vh    5vh    150vh    30vh;
+    grid-template-rows: 50vh    12vh    70vh    15vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -174,7 +174,7 @@ footer{
 .contenedor-publicar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    5vh    200vh    30vh;
+    grid-template-rows: 50vh    5vh    100vh    30vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -186,7 +186,7 @@ footer{
 .contenedor-seccion2{
         display:grid;
         grid-template-columns: 1fr  1fr;
-        grid-template-rows: 35vh    5vh    135vh    15vh;
+        grid-template-rows: 50vh    12vh    50vh    15vh;
         flex-wrap: wrap;
         grid-template-areas: 
         "header header"
@@ -240,7 +240,7 @@ h1{
 .contenedor-transitar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    5vh    100vh    15vh;
+    grid-template-rows: 50vh    5vh    50vh    15vh;
     grid-template-areas: 
     "header header"
     "section    section"
@@ -363,7 +363,7 @@ h1{
     .contenedor-mision{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 30vh    8vh    20vh   20vh    22vh;
+        grid-template-rows: 30vh    10vh    20vh   20vh    22vh;
         grid-template-areas:
         "header"
         "section"
@@ -375,7 +375,7 @@ h1{
     .contenedor-adoptar{
         display:grid;
         grid-template-columns: 1fr  1fr;
-        grid-template-rows: 35vh    1vh    75vh    15vh;
+        grid-template-rows: 35vh    1vh    55vh    15vh;
         grid-template-areas: 
         "header header"
         "section    section"
@@ -418,7 +418,7 @@ h1{
 .contenedor-seccion2{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 35vh    1vh    170vh    15vh;
+    grid-template-rows: 35vh    4vh    90vh    15vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -464,7 +464,7 @@ h1{
         .contenedor-mision{
             display:grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 40vh    8vh    32vh   32vh    15vh;
+            grid-template-rows: 40vh    12vh    50vh    15vh;
             grid-template-areas:
             "header header"
             "section section"
@@ -475,7 +475,7 @@ h1{
         .contenedor-adoptar{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    1vh    140vh    15vh;
+            grid-template-rows: 40vh    12vh    100vh    15vh;
             grid-template-areas: 
             "header header"
             "section    section"
@@ -520,7 +520,7 @@ h1{
         .contenedor-seccion2{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    5vh    100vh    15vh;
+            grid-template-rows: 40vh    5vh    60vh    15vh;
             flex-wrap: wrap;
             grid-template-areas: 
             "header header"
