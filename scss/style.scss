@@ -135,7 +135,7 @@ header{
     border-radius: 30%;
     }
         img {
-    @include tamaños(15%,15%); 
+    @include tamaños(12%,12%); 
     padding-top:0px;
     padding-right: 30px; 
     padding-left: 30px;
@@ -212,6 +212,7 @@ footer{
 
 .adoptar{
     font-size: 40px;
+    color: $font-color-1;
     padding: 30px;
     text-align: center;
         img{
@@ -463,7 +464,7 @@ h1{
         .contenedor-mision{
             display:grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 40vh    12vh    65vh    15vh;
+            grid-template-rows: 45vh    12vh    75vh    15vh;
             grid-template-areas:
             "header header"
             "section section"
@@ -474,7 +475,7 @@ h1{
         .contenedor-adoptar{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    12vh    130vh    15vh;
+            grid-template-rows: 45vh    12vh    130vh    15vh;
             grid-template-areas: 
             "header header"
             "section    section"
@@ -485,7 +486,7 @@ h1{
         .contenedor-index{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    12vh    130vh    15vh;
+            grid-template-rows: 45vh    12vh    130vh    15vh;
             grid-template-areas: 
             "header header"
             "section    section"
@@ -496,7 +497,7 @@ h1{
         .contenedor-transitar{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    12vh    52vh    15vh;
+            grid-template-rows: 45vh    12vh    52vh    15vh;
             grid-template-areas:
             "header header"
             "section    section"
@@ -507,7 +508,7 @@ h1{
         .contenedor-publicar{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    12vh    80vh    15vh;
+            grid-template-rows: 45vh    12vh    80vh    15vh;
             flex-wrap: wrap;
             grid-template-areas: 
             "header header"
@@ -519,7 +520,7 @@ h1{
         .contenedor-seccion2{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 40vh    10vh    65vh    15vh;
+            grid-template-rows: 45vh    10vh    65vh    15vh;
             flex-wrap: wrap;
             grid-template-areas: 
             "header header"
