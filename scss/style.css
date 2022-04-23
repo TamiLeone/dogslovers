@@ -23,7 +23,10 @@ body {
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 40vh    12vh    140vh    15vh;
   background-color: #d479e9;
-  grid-template-areas: "header header" "section    section" "main   aside" "footer footer";
+  grid-template-areas: "header header"
+ "section    section"
+ "main   aside"
+ "footer footer";
 }
 
 .contenedor-mision {
@@ -31,7 +34,10 @@ body {
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 40vh    12vh    50vh  15vh;
   background-color: #d479e9;
-  grid-template-areas: "header header" "section    section" "main   aside" "footer footer";
+  grid-template-areas: "header header"
+ "section    section"
+ "main   aside"
+ "footer footer";
 }
 
 .contenedor-adoptar {
@@ -39,14 +45,20 @@ body {
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 40vh    12vh    90vh    15vh;
   flex-wrap: wrap;
-  grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+  grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
 }
 
 .contenedor-transitar {
   display: grid;
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 40vh    10vh    50vh    15vh;
-  grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+  grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
 }
 
 .contenedor-publicar {
@@ -54,7 +66,10 @@ body {
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 40vh    10vh    110vh    30vh;
   flex-wrap: wrap;
-  grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+  grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
 }
 
 .contenedor-seccion2 {
@@ -62,7 +77,10 @@ body {
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 40vh    12vh    80vh    15vh;
   flex-wrap: wrap;
-  grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+  grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
 }
 
 .mision-caja-chica {
@@ -271,7 +289,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 45vh    15vh   60vh   60vh   20vh;
-    grid-template-areas: "header" "section" "main" "aside" "footer";
+    grid-template-areas: "header"
+ "section"
+ "main"
+ "aside"
+ "footer";
   }
   header {
     padding: 0px;
@@ -323,19 +345,29 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 45vh    10vh    20vh   20vh  22vh;
-    grid-template-areas: "header" "section" "main" "aside" "footer";
+    grid-template-areas: "header"
+ "section"
+ "main"
+ "aside"
+ "footer";
   }
   .contenedor-adoptar {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    5vh    80vh    15vh;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
   .contenedor-transitar {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    10vh    45vh    15vh;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
   .fotos-caja-grande {
     display: flex;
@@ -359,9 +391,12 @@ h1 {
   .contenedor-seccion2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 45vh    10vh    160vh    15vh;
+    grid-template-rows: 45vh    10vh    180vh    15vh;
     flex-wrap: wrap;
-    grid-template-areas: "header" "section" "main" "footer";
+    grid-template-areas: "header"
+ "section"
+ "main"
+ "footer";
   }
   .sec2-caja-grande {
     display: flex;
@@ -377,7 +412,10 @@ h1 {
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    10vh    90vh    15vh;
     flex-wrap: wrap;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
 }
 
@@ -400,39 +438,57 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 45vh    12vh    50vh   15vh;
-    grid-template-areas: "header header" "section section" "main aside" "footer footer";
+    grid-template-areas: "header header"
+ "section section"
+ "main aside"
+ "footer footer";
   }
   .contenedor-adoptar {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    12vh    140vh    15vh;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
   .contenedor-index {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    12vh    145vh    15vh;
-    grid-template-areas: "header header" "section    section" "main   aside" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   aside"
+ "footer footer";
   }
   .contenedor-transitar {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    12vh    52vh    15vh;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
   .contenedor-publicar {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    12vh    110vh    15vh;
     flex-wrap: wrap;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
   .contenedor-seccion2 {
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 45vh    10vh    85vh    15vh;
     flex-wrap: wrap;
-    grid-template-areas: "header header" "section    section" "main   main" "footer footer";
+    grid-template-areas: "header header"
+ "section    section"
+ "main   main"
+ "footer footer";
   }
   .fotos-caja-chica img {
     width: 200px;
