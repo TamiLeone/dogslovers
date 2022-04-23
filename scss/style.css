@@ -85,8 +85,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr  1fr;
       grid-template-columns: 1fr  1fr;
-  -ms-grid-rows: 40vh    10vh    100vh    30vh;
-      grid-template-rows: 40vh    10vh    100vh    30vh;
+  -ms-grid-rows: 40vh    10vh    110vh    30vh;
+      grid-template-rows: 40vh    10vh    110vh    30vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       grid-template-areas: "header header"
@@ -438,8 +438,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 45vh    10vh    40vh   40vh    22vh;
-        grid-template-rows: 45vh    10vh    40vh   40vh    22vh;
+    -ms-grid-rows: 45vh    10vh    47vh   47vh    22vh;
+        grid-template-rows: 45vh    10vh    47vh   47vh    22vh;
         grid-template-areas: "header"
  "section"
  "main"
@@ -451,8 +451,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr  1fr;
         grid-template-columns: 1fr  1fr;
-    -ms-grid-rows: 45vh    5vh    60vh    15vh;
-        grid-template-rows: 45vh    5vh    60vh    15vh;
+    -ms-grid-rows: 45vh    5vh    80vh    15vh;
+        grid-template-rows: 45vh    5vh    80vh    15vh;
         grid-template-areas: "header header"
  "section    section"
  "main   main"
@@ -463,8 +463,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr  1fr;
         grid-template-columns: 1fr  1fr;
-    -ms-grid-rows: 45vh    10vh    40vh    15vh;
-        grid-template-rows: 45vh    10vh    40vh    15vh;
+    -ms-grid-rows: 45vh    10vh    45vh    15vh;
+        grid-template-rows: 45vh    10vh    45vh    15vh;
         grid-template-areas: "header header"
  "section    section"
  "main   main"
@@ -503,8 +503,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 45vh    10vh    145vh    15vh;
-        grid-template-rows: 45vh    10vh    145vh    15vh;
+    -ms-grid-rows: 45vh    10vh    160vh    15vh;
+        grid-template-rows: 45vh    10vh    160vh    15vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         grid-template-areas: "header"
@@ -534,8 +534,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr  1fr;
         grid-template-columns: 1fr  1fr;
-    -ms-grid-rows: 45vh    10vh    85vh    15vh;
-        grid-template-rows: 45vh    10vh    85vh    15vh;
+    -ms-grid-rows: 45vh    10vh    90vh    15vh;
+        grid-template-rows: 45vh    10vh    90vh    15vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         grid-template-areas: "header header"
@@ -613,8 +613,8 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr  1fr;
         grid-template-columns: 1fr  1fr;
-    -ms-grid-rows: 45vh    12vh    95vh    15vh;
-        grid-template-rows: 45vh    12vh    95vh    15vh;
+    -ms-grid-rows: 45vh    12vh    110vh    15vh;
+        grid-template-rows: 45vh    12vh    110vh    15vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         grid-template-areas: "header header"
