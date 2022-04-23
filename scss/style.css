@@ -52,7 +52,7 @@ body {
 .contenedor-publicar {
   display: grid;
   grid-template-columns: 1fr  1fr;
-  grid-template-rows: 30vh    10vh    95vh    30vh;
+  grid-template-rows: 30vh    10vh    125vh    30vh;
   flex-wrap: wrap;
   grid-template-areas: "header header" "section    section" "main   main" "footer footer";
 }
@@ -100,8 +100,8 @@ header a:hover {
 }
 
 header img {
-  height: 12%;
-  width: 12%;
+  height: 8%;
+  width: 8%;
   padding-top: 0px;
   padding-right: 15px;
   padding-left: 15px;
@@ -423,7 +423,7 @@ h1 {
   .contenedor-publicar {
     display: grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 65vh    12vh    95vh    15vh;
+    grid-template-rows: 65vh    12vh    125vh    15vh;
     flex-wrap: wrap;
     grid-template-areas: "header header" "section    section" "main   main" "footer footer";
   }
