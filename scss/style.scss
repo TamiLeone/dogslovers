@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
-
 @mixin tamaños ($alto,$ancho){
     height: $alto;
     width: $ancho;
@@ -38,7 +37,7 @@ body {
 .contenedor-index{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    12vh    140vh    15vh;
+    grid-template-rows: 40vh    12vh    140vh    15vh;
     background-color:$background-color-1;
     grid-template-areas: 
     "header header"
@@ -50,7 +49,7 @@ body {
 .contenedor-mision{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    12vh    135vh    15vh;
+    grid-template-rows: 40vh    12vh    50vh  15vh;
     background-color:$background-color-1;
     grid-template-areas: 
     "header header"
@@ -62,7 +61,7 @@ body {
 .contenedor-adoptar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    12vh    80vh    15vh;
+    grid-template-rows: 40vh    12vh    90vh    15vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -74,7 +73,7 @@ body {
 .contenedor-transitar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    10vh    50vh    15vh;
+    grid-template-rows: 40vh    10vh    50vh    15vh;
     grid-template-areas: 
     "header header"
     "section    section"
@@ -85,7 +84,7 @@ body {
 .contenedor-publicar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50vh    10vh    90vh    30vh;
+    grid-template-rows: 40vh    10vh    110vh    30vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -97,7 +96,7 @@ body {
 .contenedor-seccion2{
         display:grid;
         grid-template-columns: 1fr  1fr;
-        grid-template-rows: 50vh    12vh    80vh    15vh;
+        grid-template-rows: 40vh    12vh    80vh    15vh;
         flex-wrap: wrap;
         grid-template-areas: 
         "header header"
@@ -107,12 +106,12 @@ body {
     }
 
 .mision-caja-chica {
-    display: map-get($cont-small, display);
-    display:inline;
+    display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 10px;
     font-size: 15px;
+    padding: 20px;
     text-align: justify;
     @extend %alienacion;
 } 
@@ -128,7 +127,7 @@ header{
     transition:all 1s;
     color:$font-color-1;
     background-color: #eaa9f8;
-    border-radius: 30%;
+    border-radius: 10%;
     }   
         a:hover {
     color: $font-color-2;
@@ -257,7 +256,8 @@ h1{
 
 .form-select{
     @include tamaños(1px,200px); 
-    @extend %alienacion;    
+    @extend %alienacion; 
+    line-height: 1,5;   
 }
 
 .fotos-caja-grande{
@@ -301,7 +301,7 @@ h1{
     .contenedor-index{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 45vh    15vh   70vh   70vh    20vh;
+        grid-template-rows: 45vh    15vh   60vh   60vh   20vh;
         grid-template-areas: 
         "header"
         "section"
@@ -315,8 +315,7 @@ h1{
         background-repeat: repeat-x;
         background-size:cover!important;
         img {
-        text-align: center;
-        justify-content: center;
+        @extend %alienacion;
         padding-top: 1px;
         padding-bottom: 1px;
         width: 30%;
@@ -329,7 +328,7 @@ h1{
     } 
 
     .ingresar{
-        text-align: center;
+        @extend %alienacion;
         padding-top: 10px;
         padding-right: 10px;
         padding-bottom: opx;
@@ -365,7 +364,7 @@ h1{
     .contenedor-mision{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 45vh    10vh    40vh   40vh    22vh;
+        grid-template-rows: 45vh    10vh    47vh   47vh  22vh;
         grid-template-areas:
         "header"
         "section"
@@ -377,7 +376,7 @@ h1{
     .contenedor-adoptar{
         display:grid;
         grid-template-columns: 1fr  1fr;
-        grid-template-rows: 45vh    5vh    60vh    15vh;
+        grid-template-rows: 45vh    5vh    80vh    15vh;
         grid-template-areas: 
         "header header"
         "section    section"
@@ -388,7 +387,7 @@ h1{
     .contenedor-transitar{
         display:grid;
         grid-template-columns: 1fr  1fr;
-        grid-template-rows: 45vh    10vh    40vh    15vh;
+        grid-template-rows: 45vh    10vh    45vh    15vh;
         grid-template-areas: 
         "header header"
         "section    section"
@@ -420,7 +419,7 @@ h1{
 .contenedor-seccion2{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 45vh    10vh    145vh    15vh;
+    grid-template-rows: 45vh    10vh    160vh    15vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header"
@@ -442,7 +441,7 @@ h1{
 .contenedor-publicar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 45vh    10vh    85vh    15vh;
+    grid-template-rows: 45vh    10vh    90vh    15vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -467,7 +466,7 @@ h1{
         .contenedor-mision{
             display:grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 45vh    12vh    75vh    15vh;
+            grid-template-rows: 45vh    12vh    50vh   15vh;
             grid-template-areas:
             "header header"
             "section section"
@@ -511,7 +510,7 @@ h1{
         .contenedor-publicar{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 45vh    12vh    95vh    15vh;
+            grid-template-rows: 45vh    12vh    110vh    15vh;
             flex-wrap: wrap;
             grid-template-areas: 
             "header header"
