@@ -315,7 +315,6 @@ h1{
         background-repeat: repeat-x;
         background-size:cover!important;
         img {
-        @extend %alienacion;
         padding-top: 1px;
         padding-bottom: 1px;
         width: 30%;
@@ -328,7 +327,9 @@ h1{
     } 
 
     .ingresar{
-        @extend %alienacion;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
         padding-top: 10px;
         padding-right: 10px;
         padding-bottom: opx;
@@ -364,7 +365,7 @@ h1{
     .contenedor-mision{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 45vh    10vh    47vh   47vh  22vh;
+        grid-template-rows: 45vh    10vh    20vh   20vh  22vh;
         grid-template-areas:
         "header"
         "section"
