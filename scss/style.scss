@@ -49,7 +49,7 @@ body {
 .contenedor-mision{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 40vh    12vh    50vh  15vh;
+    grid-template-rows: 40vh    12vh    36vh  15vh;
     background-color:$background-color-1;
     grid-template-areas: 
     "header header"
@@ -84,7 +84,7 @@ body {
 .contenedor-publicar{
     display:grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 40vh    10vh    95vh    30vh;
+    grid-template-rows: 40vh    10vh    115vh    30vh;
     flex-wrap: wrap;
     grid-template-areas: 
     "header header"
@@ -138,8 +138,8 @@ header{
         img {
     @include tamaños(12%,12%); 
     padding-top:0px;
-    padding-right: 30px; 
-    padding-left: 30px;
+    padding-right: 15px; 
+    padding-left: 15px;
     text-align: left;
     border-radius: 50%;
     }
@@ -511,7 +511,7 @@ h1{
         .contenedor-publicar{
             display:grid;
             grid-template-columns: 1fr  1fr;
-            grid-template-rows: 45vh    12vh    95vh    15vh;
+            grid-template-rows: 45vh    12vh    115vh    15vh;
             flex-wrap: wrap;
             grid-template-areas: 
             "header header"
