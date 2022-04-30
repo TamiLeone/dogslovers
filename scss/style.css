@@ -420,7 +420,7 @@ h1 {
   .contenedor-mision {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 90vh    28vh    190vh   120vh  22vh;
+    grid-template-rows: 90vh    28vh    60vh   120vh  22vh;
     grid-template-areas: "header" "section" "main" "aside" "footer";
   }
   .contenedor-adoptar {
